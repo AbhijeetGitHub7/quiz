@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+</head>
+<script src="https://cdn.tailwindcss.com"></script>
+<body>
+    <div id="container" class="w-full h-max bg-violet-700 bg-cover py-5">
+        <img src="https://images.livehindustan.com/uploadimage/library/2018/01/04/16_9/16_9_1/quiz_time_1515051026.jpg" alt="" class="mx-auto my-5 h-48">
+        <div id="time" class="mx-auto py-3 px-3 w-12 border-2 border-yellow-300 rounded-full bg-white">
+           
+        </div>
+        <div id="question" class="font-bold text-white mx-auto px-10 mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque possimus expedita ipsa labore quidem dignissimos iure aspernatur a cupiditate. Doloremque, laudantium ipsum dignissimos ab quia molestias dolorum nemo tenetur eligendi.</div>
+        <div id="question">
+        <div id="options">
+            <div class="flex mx-auto px-32 justify-center">
+                <div id="option 1" class="border-2 mr-48 w-64 border-black rounded hover:bg-yellow-200 font-bold px-2 py-5" 
+                onclick="checkAnswer('A')">"option 1"</div>
+                <div id="option 2" class="border-2 w-64 border-black rounded hover:bg-yellow-200 font-bold px-2 py-5"
+                onclick="checkAnswer('B')">"option 1"</div>
+            </div>
+            <div class="flex mx-auto justify-center my-7">
+                <div id="option 3" class="border-2 w-64 mr-48 border-black rounded hover:bg-yellow-200 font-bold px-2 py-5"
+                onclick="checkAnswer('C')">"option 1"</div>
+                <div id="option 4" class="border-2 w-64 border-black rounded hover:bg-yellow-200 font-bold px-2 py-5"
+                onclick="checkAnswer('D')">"option 1"</div>
+            </div>
+        </div>
+    
+        </div>
+        <div id="result" class="font-bold text-8xl text-white mx-64 px-96"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
