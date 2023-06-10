@@ -2,7 +2,7 @@ var time=document.getElementById("time")
 var index=0;
 var points=0;
 var clicked=[false,false,false,false,false,false,false,false,false];
-let questions=["World No Tobacco Day is celebrated on which of the following day every year?",
+let questions=["Q :World No Tobacco Day is celebrated on which of the following day every year?",
 "Q :  Which of the following day is celebrated as Law Day in India?",
 "Q :  Which Indian site is included in UNESCO world heritage list in July, 2021?",
 "Q :  Human Rights Day is observed on which of the following days?",
